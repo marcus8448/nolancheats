@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nolancheats",
+  "version": "${version}",
+
+  "name": "No LAN Cheats",
+  "description": "Makes the 'Allow Cheats' button on the LAN screen do nothing, preventing you from cheating.",
+  "authors": [
+    "marcus8448"
+  ],
+  "contact": {
+    "homepage": "https://marcus8448.github.io/",
+    "sources": "https://github.com/marcus8448/nolancheats"
+  },
+
+  "license": "LGPL-3-or-later",
+  "icon": "assets/nolancheats/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "nolancheats.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": ">=1.16"
+  }
+}
